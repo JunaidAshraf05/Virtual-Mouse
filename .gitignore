@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Keep `mp-env/` tracked per user request — do NOT ignore the virtualenv here.
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python env files (other venv names)
+.env
+.venv
+pip-wheel-metadata/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# logs
+*.log
+
+# Editor swap files
+*~
+*.swp
